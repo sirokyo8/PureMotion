@@ -1,0 +1,154 @@
+* {
+  color: var(--color-primary);
+  font-family: Montserrat;
+  user-select: none;
+  scroll-behavior: auto;
+}
+
+:root {
+  --color-primary: rgb(255, 255, 255);
+  --color-secondary: rgb(237, 86, 59);
+  --color-tertiary: var(--color-bac-primary);
+  --color-bac-primary: rgb(15, 15, 15);
+  --color-bac-secondary: rgb(26, 26, 27);
+  --color-bac-tertiary: rgb(119, 122, 136);
+
+  /* barvy pro light mode */
+  /* --color-primary: rgb(15, 15, 15);
+  --color-tertiary: var(--color-bac-primary);
+  --color-bac-primary: rgb(255, 255, 255);
+  --color-bac-secondary: rgb(201, 201, 201);
+  --color-bac-tertiary: rgb(119, 122, 136); */
+
+  --font-thic: 300;
+  --font-mid: 450;
+  --font-semi-bold: 550;
+  --font-bold: 700;
+
+  --radius: 11px;
+  --radius-secondary: 50px;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 2.5px;
+  height: 2.5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bac-secondary);
+  border-radius: var(--radius);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+  border-radius: var(--radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-bac-tertiary);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
+}
+
+body {
+  background-color: var(--color-bac-primary);
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+span.orange {
+  color: var(--color-secondary);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: 0;
+}
+
+iframe {
+  border-radius: var(--radius);
+}
+
+ul {
+  margin: 20px 0;
+}
+
+.logo>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+/* dashboard */
+.dashboard {
+  max-height: 100vh;
+  overflow-y: scroll;
+  position: absolute;
+  right: 0;
+  width: 80%;
+  padding: 10px 50px;
+}
+
+/* categories */
+.categories {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.category img {
+  width: 250px;
+  margin: 0px auto;
+}
+
+/* responsive */
+@media only screen and (max-width: 1000px) {
+  .dashboard {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 705px) {
+  .categories {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboard {
+    width: 100%;
+    max-height: 90%;
+    padding: 10px 25px;
+  }
+}

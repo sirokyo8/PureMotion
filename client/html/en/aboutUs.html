@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Learn more about our team, our values, and our passion for healthy living on our About Us page.">
+  <meta name="author" content="PureMotion Team">
+  <meta name="keywords" content="about us, team, values, healthy living, passion">
+  <title>PureMotion</title>
+  <script src="https://kit.fontawesome.com/0906644102.js" crossorigin="anonymous"></script>
+  <link rel="alternate" hreflang="cs" href="../cs/">
+  <link rel="shortcut icon" href="../../assets/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../../css/main.css">
+</head>
+
+<body>
+  <main>
+    <div class="assistant">
+      <div class="assistantContent">
+        <div class="assistantSphere">
+          <div></div>
+        </div>
+        <div>
+          <span class="font5 semiBold" id="assistantInteraction"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="splashScreen splashScreenV2">
+    </div>
+    <div class="sideNav">
+      <div>
+        <button class="hamburger" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
+        <a href="index.html" class="font3 semiBold navLogoText">PURE<span class="orange">MOTION</span></a>
+        <nav>
+          <a href="workout.html" class="font4 semiBold"><i class="fa-solid fa-dumbbell"></i><span
+              class="sideNavText">Workout</span></a>
+          <a href="nutrition.html" class="font4 semiBold"><i class="fa-solid fa-utensils"></i><span
+              class="sideNavText">Nutrition</span></a>
+          <a href="aboutUs.html" class="font4 semiBold"><i class="fa-solid fa-people-group"></i><span
+              class="sideNavText">About Us</span></a>
+          <a href="https://www.paypal.com/donate/?hosted_button_id=WMZKWFUNC8FQ8" target="_blank"
+            class="font4 semiBold"><i class="fa-solid fa-dollar-sign"></i><span class="sideNavText">Give us
+              money</span></a>
+        </nav>
+      </div>
+      <div>
+        <div class="assistantBegin"></div>
+      </div>
+    </div>
+    <div class="bottomNav">
+			<nav>
+				<a href="workout.html" class="font4 semiBold"><i class="fa-solid fa-dumbbell"></i></a>
+				<a href="nutrition.html" class="font4 semiBold"><i class="fa-solid fa-utensils"></i></a>
+				<div>
+					<div class="assistantBegin"></div>
+				</div>
+				<a href="aboutUs.html" class="font4 semiBold"><i class="fa-solid fa-people-group"></i></a>
+				<a href="https://www.paypal.com/donate/?hosted_button_id=WMZKWFUNC8FQ8" target="_blank"
+					class="font4 semiBold"><i class="fa-solid fa-dollar-sign"></i></a>
+			</nav>
+    </div>
+
+    <div class="dashboard">
+      <h1 class="dashboardHeader font2 textCenter">Authors</h1>
+      <button class="openPopupBtn settingsBtn" data-popup="popup1">
+        <i class="fa-solid fa-gear"></i>
+      </button>
+      <div class="authors">
+        <div class="author">
+          <h2 class="font3 textCenter">Jan Zábojník</h2>
+          <img src="../../assets/smolik.png" alt="Hanz">
+          <div class="socials">
+            <a href="https://www.instagram.com/_janzabojnik_/" class="font2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/z4mby" class="font2"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="author">
+          <h2 class="font3 textCenter">Jiří Posavád</h2>
+          <img src="../../assets/smolik.png" alt="Posi">
+          <div class="socials">
+            <a href="https://www.instagram.com/jirik_pos/" class="font2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/JirikPos" class="font2"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="author">
+          <h2 class="font3 textCenter">Ondřej Široký</h2>
+          <img src="../../assets/smolik.png" alt="Ondrášovka">
+          <div class="socials">
+            <a href="https://www.instagram.com/siroky.ondrej/" class="font2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/sirokyo8" class="font2"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- popups -->
+
+    <!-- settings -->
+    <div id="popup1" class="popup popupSettings">
+      <div class="popupContent">
+        <span class="closeBtn">&times;</span>
+        <div>
+          <h2 class="font3 bold">Settings</h2>
+        </div>
+        <div class="settings">
+          <div>
+            <div>
+              <i class="fa-solid fa-moon"></i>
+              <p class="font4 semiBold">Dark <span class="orange">theme</span></p>
+            </div>
+            <div class="switch">
+              <input type="checkbox" id="toggleSwitch" class="theme_switch" checked>
+              <label for="toggleSwitch"></label>
+            </div>
+          </div>
+          <div>
+            <div>
+              <i class="fa-solid fa-palette"></i>
+              <p class="font4 semiBold">Color <span class="orange">palette</span></p>
+            </div>
+            <div>
+              <div>
+                <input type="color" id="colorInput" class="colorPalette" value="#ed563b">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <i class="fa-solid fa-comment"></i>
+              <p class="font4 semiBold">Language</p>
+            </div>
+            <div>
+              <a onclick="cs()" class="simpleBtn">
+                <span> <object type="image/svg+xml" data="../../assets/svg/cz.svg" width="20"
+                    height="20"></object></span>
+                <span class="font5 semiBold">CS</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="btn font5 semiBold saveButton">Save</button>
+          <button class="resetBtn">Reset to default</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../../js/animations.js"></script>
+  <script src="../../js/db.js"></script>
+  <script src="../../js/assistant.js"></script>
+  <script src="../../js/index.js"></script>
+</body>
+
+</html>

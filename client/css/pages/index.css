@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  background-image: url('../../assets/bac.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 12.5%;
+  display: flex;
+  align-items: center;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.topnav img {
+  width: 50px;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+main>div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: right;
+}
+
+footer p {
+  margin: 10px 30px;
+}

@@ -1,0 +1,1163 @@
+{
+  "verbs": [
+    {
+      "verb": "buď",
+      "infinitive": "být",
+      "forms": {
+        "present": ["jsem", "jsi", "je", "jsme", "jste", "jsou"],
+        "future": ["budu", "budeš", "bude", "budeme", "budete", "budou"],
+        "past": ["jsem byl", "jsi byl", "je byl", "jsme byli", "jste byli", "jsou byli"]
+      }
+    },
+    {
+      "verb": "jdi",
+      "infinitive": "jít",
+      "forms": {
+        "present": ["jdu", "jdeš", "jde", "jdeme", "jdete", "jdou"],
+        "future": ["půjdu", "půjdeš", "půjde", "půjdeme", "půjdete", "půjdou"],
+        "past": ["šel", "šla", "šlo", "šli", "šly", "šli"]
+      }
+    },
+    {
+      "verb": "běž",
+      "infinitive": "běžet",
+      "forms": {
+        "present": ["běžím", "běžíš", "běží", "běžíme", "běžíte", "běží"],
+        "future": [
+          "poběžím",
+          "poběžíš",
+          "poběží",
+          "poběžíme",
+          "poběžíte",
+          "poběží"
+        ],
+        "past": ["běžel", "běžela", "běželo", "běželi", "běžely", "běželi"]
+      }
+    },
+    {
+      "verb": "skoč",
+      "infinitive": "skočit",
+      "forms": {
+        "present": ["skáču", "skáčeš", "skáče", "skáčeme", "skáčete", "skáčou"],
+        "future": ["skočím", "skočíš", "skočí", "skočíme", "skočíte", "skočí"],
+        "past": [
+          "skočil",
+          "skočila",
+          "skočilo",
+          "skočili",
+          "skočily",
+          "skočili"
+        ]
+      }
+    },
+    {
+      "verb": "dej",
+      "infinitive": "dát",
+      "forms": {
+        "present": ["dávám", "dáváš", "dává", "dáváme", "dáváte", "dávají"],
+        "future": ["dám", "dáš", "dá", "dáme", "dáte", "dají"],
+        "past": ["dal", "dala", "dalo", "dali", "daly", "dali"]
+      }
+    },
+    {
+      "verb": "vezmi",
+      "infinitive": "vzít",
+      "forms": {
+        "present": ["beru", "bereš", "bere", "bereme", "berete", "berou"],
+        "future": ["vezmu", "vezmeš", "vezme", "vezmeme", "vezmete", "vezmou"],
+        "past": ["vzal", "vzala", "vzalo", "vzali", "vzaly", "vzali"]
+      }
+    },
+    {
+      "verb": "udělej",
+      "infinitive": "udělat",
+      "forms": {
+        "present": ["dělám", "děláš", "dělá", "děláme", "děláte", "dělají"],
+        "future": [
+          "udělám",
+          "uděláš",
+          "udělá",
+          "uděláme",
+          "uděláte",
+          "udělají"
+        ],
+        "past": [
+          "udělal",
+          "udělala",
+          "udělalo",
+          "udělali",
+          "udělaly",
+          "udělali"
+        ]
+      }
+    },
+    {
+      "verb": "pošli",
+      "infinitive": "poslat",
+      "forms": {
+        "present": [
+          "posílám",
+          "posíláš",
+          "posílá",
+          "posíláme",
+          "posíláte",
+          "posílají"
+        ],
+        "future": ["pošlu", "pošleš", "pošle", "pošleme", "pošlete", "pošlou"],
+        "past": [
+          "poslal",
+          "poslala",
+          "poslalo",
+          "poslali",
+          "poslaly",
+          "poslali"
+        ]
+      }
+    },
+    {
+      "verb": "přidej",
+      "infinitive": "přidat",
+      "forms": {
+        "present": [
+          "přidávám",
+          "přidáváš",
+          "přidává",
+          "přidáváme",
+          "přidáváte",
+          "přidávají"
+        ],
+        "future": [
+          "přidám",
+          "přidáš",
+          "přidá",
+          "přidáme",
+          "přidáte",
+          "přidají"
+        ],
+        "past": [
+          "přidal",
+          "přidala",
+          "přidalo",
+          "přidali",
+          "přidaly",
+          "přidali"
+        ]
+      }
+    },
+    {
+      "verb": "odeber",
+      "infinitive": "odebrat",
+      "forms": {
+        "present": [
+          "odebírám",
+          "odebíráš",
+          "odebírá",
+          "odebíráme",
+          "odebíráte",
+          "odebírají"
+        ],
+        "future": [
+          "odeberu",
+          "odebereš",
+          "odebere",
+          "odebereme",
+          "odeberete",
+          "odeberou"
+        ],
+        "past": [
+          "odebral",
+          "odebrala",
+          "odebralo",
+          "odebrali",
+          "odebraly",
+          "odebrali"
+        ]
+      }
+    },
+    {
+      "verb": "vytvoř",
+      "infinitive": "vytvořit",
+      "forms": {
+        "present": [
+          "vytvářím",
+          "vytváříš",
+          "vytváří",
+          "vytváříme",
+          "vytváříte",
+          "vytvářejí"
+        ],
+        "future": [
+          "vytvořím",
+          "vytvoříš",
+          "vytvoří",
+          "vytvoříme",
+          "vytvoříte",
+          "vytvoří"
+        ],
+        "past": [
+          "vytvořil",
+          "vytvořila",
+          "vytvořilo",
+          "vytvořili",
+          "vytvořily",
+          "vytvořili"
+        ]
+      }
+    },
+    {
+      "verb": "znič",
+      "infinitive": "zničit",
+      "forms": {
+        "present": ["ničím", "ničíš", "ničí", "ničíme", "ničíte", "ničí"],
+        "future": ["zničím", "zničíš", "zničí", "zničíme", "zničíte", "zničí"],
+        "past": [
+          "zničil",
+          "zničila",
+          "zničilo",
+          "zničili",
+          "zničily",
+          "zničili"
+        ]
+      }
+    },
+    {
+      "verb": "získej",
+      "infinitive": "získat",
+      "forms": {
+        "present": [
+          "získávám",
+          "získáváš",
+          "získává",
+          "získáváme",
+          "získáváte",
+          "získávají"
+        ],
+        "future": [
+          "získám",
+          "získáš",
+          "získá",
+          "získáme",
+          "získáte",
+          "získají"
+        ],
+        "past": [
+          "získal",
+          "získala",
+          "získalo",
+          "získali",
+          "získaly",
+          "získali"
+        ]
+      }
+    },
+    {
+      "verb": "zavolej",
+      "infinitive": "zavolat",
+      "forms": {
+        "present": [
+          "zvolávám",
+          "zvoláváš",
+          "zvolává",
+          "zvoláváme",
+          "zvoláváte",
+          "zvolávají"
+        ],
+        "future": [
+          "zavolám",
+          "zavoláš",
+          "zavolá",
+          "zavoláme",
+          "zavoláte",
+          "zavolají"
+        ],
+        "past": [
+          "zavolal",
+          "zavolala",
+          "zavolalo",
+          "zavolali",
+          "zavolaly",
+          "zavolali"
+        ]
+      }
+    },
+    {
+      "verb": "napiš",
+      "infinitive": "napsat",
+      "forms": {
+        "present": ["píšu", "píšeš", "píše", "píšeme", "píšete", "píšou"],
+        "future": [
+          "napíšu",
+          "napíšeš",
+          "napíše",
+          "napíšeme",
+          "napíšete",
+          "napíší"
+        ],
+        "past": [
+          "napsal",
+          "napsala",
+          "napsalo",
+          "napsali",
+          "napsaly",
+          "napsali"
+        ]
+      }
+    },
+    {
+      "verb": "čti",
+      "infinitive": "číst",
+      "forms": {
+        "present": ["čtu", "čteš", "čte", "čteme", "čtete", "čtou"],
+        "future": [
+          "přečtu",
+          "přečteš",
+          "přečte",
+          "přečteme",
+          "přečtete",
+          "přečtou"
+        ],
+        "past": ["četl", "četla", "četlo", "četli", "četly", "četli"]
+      }
+    },
+    {
+      "verb": "vrať",
+      "infinitive": "vrátit",
+      "forms": {
+        "present": [
+          "vracím",
+          "vracíš",
+          "vrací",
+          "vracíme",
+          "vracíte",
+          "vracejí"
+        ],
+        "future": ["vrátím", "vrátíš", "vrátí", "vrátíme", "vrátíte", "vrátí"],
+        "past": [
+          "vrátil",
+          "vrátila",
+          "vrátilo",
+          "vrátili",
+          "vrátily",
+          "vrátili"
+        ]
+      }
+    },
+    {
+      "verb": "přejdi",
+      "infinitive": "přejít",
+      "forms": {
+        "present": [
+          "přecházím",
+          "přecházíš",
+          "přechází",
+          "přecházíme",
+          "přecházíte",
+          "přecházejí"
+        ],
+        "future": [
+          "přejdu",
+          "přejdeš",
+          "přejde",
+          "přejdeme",
+          "přejdete",
+          "přejdou"
+        ],
+        "past": ["přešel", "přešla", "přešlo", "přešli", "přešly", "přešli"]
+      }
+    },
+    {
+      "verb": "otevři",
+      "infinitive": "otevřít",
+      "forms": {
+        "present": [
+          "otevírám",
+          "otevíráš",
+          "otevírá",
+          "otevíráme",
+          "otevíráte",
+          "otevírají"
+        ],
+        "future": [
+          "otevřu",
+          "otevřeš",
+          "otevře",
+          "otevřeme",
+          "otevřete",
+          "otevřou"
+        ],
+        "past": [
+          "otevřel",
+          "otevřela",
+          "otevřelo",
+          "otevřeli",
+          "otevřely",
+          "otevřeli"
+        ]
+      }
+    },
+    {
+      "verb": "zavři",
+      "infinitive": "zavřít",
+      "forms": {
+        "present": [
+          "zavírám",
+          "zavíráš",
+          "zavírá",
+          "zavíráme",
+          "zavíráte",
+          "zavírají"
+        ],
+        "future": ["zavřu", "zavřeš", "zavře", "zavřeme", "zavřete", "zavřou"],
+        "past": [
+          "zavřel",
+          "zavřela",
+          "zavřelo",
+          "zavřeli",
+          "zavřely",
+          "zavřeli"
+        ]
+      }
+    },
+    {
+      "verb": "změň",
+      "infinitive": "změnit",
+      "forms": {
+        "present": ["měním", "měníš", "mění", "měníme", "měníte", "mění"],
+        "future": ["změním", "změníš", "změní", "změníme", "změníte", "změní"],
+        "past": [
+          "změnil",
+          "změnila",
+          "změnilo",
+          "změnili",
+          "změnily",
+          "změnili"
+        ]
+      }
+    },
+    {
+      "verb": "rozmíchej",
+      "infinitive": "rozmíchat",
+      "forms": {
+        "present": [
+          "míchám",
+          "mícháš",
+          "míchá",
+          "mícháme",
+          "mícháte",
+          "míchají"
+        ],
+        "future": [
+          "rozmíchám",
+          "rozmícháš",
+          "rozmíchá",
+          "rozmícháme",
+          "rozmícháte",
+          "rozmíchají"
+        ],
+        "past": [
+          "rozmíchal",
+          "rozmíchala",
+          "rozmíchalo",
+          "rozmíchali",
+          "rozmíchaly",
+          "rozmíchali"
+        ]
+      }
+    },
+    {
+      "verb": "vypij",
+      "infinitive": "vypít",
+      "forms": {
+        "present": ["píšu", "píšeš", "píše", "píšeme", "píšete", "píšou"],
+        "future": [
+          "vypiju",
+          "vypiješ",
+          "vypije",
+          "vypijeme",
+          "vypijete",
+          "vypijou"
+        ],
+        "past": ["vypil", "vypila", "vypilo", "vypili", "vypily", "vypili"]
+      }
+    },
+    {
+      "verb": "jedz",
+      "infinitive": "jíst",
+      "forms": {
+        "present": ["jím", "jíš", "jí", "jíme", "jíte", "jedí"],
+        "future": [
+          "budu jíst",
+          "budeš jíst",
+          "bude jíst",
+          "budeme jíst",
+          "budete jíst",
+          "budou jíst"
+        ],
+        "past": ["jedl", "jedla", "jedlo", "jedli", "jedly", "jedly"]
+      }
+    },
+    {
+      "verb": "vař",
+      "infinitive": "vařit",
+      "forms": {
+        "present": ["vařím", "vaříš", "vaří", "vaříme", "vaříte", "vaří"],
+        "future": ["uvařím", "uvaříš", "uvaří", "uvaříme", "uvaříte", "uvaří"],
+        "past": ["vařil", "vařila", "vařilo", "vařili", "vařily", "vařili"]
+      }
+    },
+    {
+      "verb": "Smaž",
+      "infinitive": "smazat",
+      "forms": {
+        "present": ["smážu", "smážeš", "smáže", "smážeme", "smážete", "smážou"],
+        "future": [
+          "usmážu",
+          "usmážeš",
+          "usmáže",
+          "usmážeme",
+          "usmážete",
+          "usmážou"
+        ],
+        "past": ["smažl", "smažla", "smažlo", "smažli", "smažly", "smažli"]
+      }
+    },
+    {
+      "verb": "peč",
+      "infinitive": "péct",
+      "forms": {
+        "present": ["peču", "pečeš", "peče", "pečeme", "pečete", "pečou"],
+        "future": ["upeču", "upečeš", "upeče", "upečeme", "upecete", "upecou"],
+        "past": ["pek", "pekla", "peklo", "pekli", "pekly", "pekli"]
+      }
+    },
+    {
+      "verb": "vyměň",
+      "infinitive": "vyměnit",
+      "forms": {
+        "present": ["měním", "měníš", "mění", "měníme", "měníte", "mění"],
+        "future": [
+          "vyměním",
+          "vyměníš",
+          "vymění",
+          "vyměníme",
+          "vyměníte",
+          "vymění"
+        ],
+        "past": [
+          "vyměnil",
+          "vyměnila",
+          "vyměnilo",
+          "vyměnili",
+          "vyměnily",
+          "vyměnili"
+        ]
+      }
+    },
+    {
+      "verb": "odpověz",
+      "infinitive": "odpovědět",
+      "forms": {
+        "present": [
+          "odpovídám",
+          "odpovídáš",
+          "odpovídá",
+          "odpovídáme",
+          "odpovídáte",
+          "odpovídají"
+        ],
+        "future": [
+          "odpovím",
+          "odpovíš",
+          "odpoví",
+          "odpovíme",
+          "odpovíte",
+          "odpoví"
+        ],
+        "past": [
+          "odpověděl",
+          "odpověděla",
+          "odpovědělo",
+          "odpověděli",
+          "odpověděly",
+          "odpověděli"
+        ]
+      }
+    },
+    {
+      "verb": "promluv",
+      "infinitive": "promluvit",
+      "forms": {
+        "present": ["mluvím", "mluvíš", "mluví", "mluvíme", "mluvíte", "mluví"],
+        "future": [
+          "promluvím",
+          "promluvíš",
+          "promluví",
+          "promluvíme",
+          "promluvíte",
+          "promluví"
+        ],
+        "past": [
+          "promluvil",
+          "promluvila",
+          "promluvilo",
+          "promluvili",
+          "promluvily",
+          "promluvili"
+        ]
+      }
+    },
+    {
+      "verb": "poslouchej",
+      "infinitive": "poslouchat",
+      "forms": {
+        "present": [
+          "poslouchám",
+          "posloucháš",
+          "poslouchá",
+          "posloucháme",
+          "posloucháte",
+          "poslouchají"
+        ],
+        "future": [
+          "poslechnu",
+          "poslechneš",
+          "poslechne",
+          "poslechneme",
+          "poslechnete",
+          "poslechnou"
+        ],
+        "past": [
+          "poslouchal",
+          "poslouchala",
+          "poslouchalo",
+          "poslouchali",
+          "poslouchaly",
+          "poslouchali"
+        ]
+      }
+    },
+    {
+      "verb": "hledej",
+      "infinitive": "hledat",
+      "forms": {
+        "present": [
+          "hledám",
+          "hledáš",
+          "hledá",
+          "hledáme",
+          "hledáte",
+          "hledají"
+        ],
+        "future": ["najdu", "najdeš", "najde", "najdeme", "najdete", "najdou"],
+        "past": [
+          "hledal",
+          "hledala",
+          "hledalo",
+          "hledali",
+          "hledaly",
+          "hledali"
+        ]
+      }
+    },
+    {
+      "verb": "nalezni",
+      "infinitive": "nalézt",
+      "forms": {
+        "present": [
+          "naleznu",
+          "nalezneš",
+          "nalezne",
+          "nalezne",
+          "naleznete",
+          "nalezne"
+        ],
+        "future": ["najdu", "najdeš", "najde", "najdeme", "najdete", "najdou"],
+        "past": ["našel", "našla", "našlo", "našli", "našly", "našli"]
+      }
+    },
+    {
+      "verb": "ukaž",
+      "infinitive": "ukázat",
+      "forms": {
+        "present": [
+          "ukazuji",
+          "ukazuješ",
+          "ukazuje",
+          "ukazujeme",
+          "ukazujete",
+          "ukazují"
+        ],
+        "future": ["ukážu", "ukážeš", "ukáže", "ukážeme", "ukážete", "ukážou"],
+        "past": [
+          "ukázal",
+          "ukázala",
+          "ukázalo",
+          "ukázali",
+          "ukázaly",
+          "ukázali"
+        ]
+      }
+    },
+    {
+      "verb": "skryj",
+      "infinitive": "skrýt",
+      "forms": {
+        "present": [
+          "skrývám",
+          "skrýváš",
+          "skrývá",
+          "skrýváme",
+          "skrýváte",
+          "skrývají"
+        ],
+        "future": [
+          "skryju",
+          "skryješ",
+          "skryje",
+          "skryjeme",
+          "skryjete",
+          "skryjou"
+        ],
+        "past": ["skryl", "skryla", "skrylo", "skryli", "skryly", "skryli"]
+      }
+    },
+    {
+      "verb": "zapni",
+      "infinitive": "zapnout",
+      "forms": {
+        "present": [
+          "zapínám",
+          "zapínáš",
+          "zapíná",
+          "zapínáme",
+          "zapínáte",
+          "zapínají"
+        ],
+        "future": ["zapnu", "zapneš", "zapne", "zapneme", "zapnete", "zapnou"],
+        "past": [
+          "zapnul",
+          "zapnula",
+          "zapnulo",
+          "zapnuli",
+          "zapnuly",
+          "zapnuli"
+        ]
+      }
+    },
+    {
+      "verb": "vypni",
+      "infinitive": "vypnout",
+      "forms": {
+        "present": [
+          "vypínám",
+          "vypínáš",
+          "vypíná",
+          "vypínáme",
+          "vypínáte",
+          "vypínají"
+        ],
+        "future": ["vypnu", "vypneš", "vypne", "vypneme", "vypnete", "vypnou"],
+        "past": [
+          "vypnul",
+          "vypnula",
+          "vypnulo",
+          "vypnuli",
+          "vypnuly",
+          "vypnuli"
+        ]
+      }
+    },
+    {
+      "verb": "připoj",
+      "infinitive": "připojit",
+      "forms": {
+        "present": [
+          "připojuji",
+          "připojuješ",
+          "připojuje",
+          "připojujeme",
+          "připojujete",
+          "připojují"
+        ],
+        "future": [
+          "připojím",
+          "připojíš",
+          "připojí",
+          "připojíme",
+          "připojíte",
+          "připojí"
+        ],
+        "past": [
+          "připojil",
+          "připojila",
+          "připojilo",
+          "připojili",
+          "připojily",
+          "připojili"
+        ]
+      }
+    },
+    {
+      "verb": "odpoj",
+      "infinitive": "odpojit",
+      "forms": {
+        "present": [
+          "odpojuji",
+          "odpojuješ",
+          "odpojuje",
+          "odpojujeme",
+          "odpojujete",
+          "odpojují"
+        ],
+        "future": [
+          "odpojím",
+          "odpojíš",
+          "odpojí",
+          "odpojíme",
+          "odpojíte",
+          "odpojí"
+        ],
+        "past": [
+          "odpojil",
+          "odpojila",
+          "odpojilo",
+          "odpojili",
+          "odpojily",
+          "odpojili"
+        ]
+      }
+    },
+    {
+      "verb": "restartuj",
+      "infinitive": "restartovat",
+      "forms": {
+        "present": [
+          "restartuji",
+          "restartuješ",
+          "restartuje",
+          "restartujeme",
+          "restartujete",
+          "restartují"
+        ],
+        "future": [
+          "restartuji",
+          "restartuješ",
+          "restartuje",
+          "restartujeme",
+          "restartujete",
+          "restartují"
+        ],
+        "past": [
+          "restartoval",
+          "restartovala",
+          "restartovalo",
+          "restartovali",
+          "restartovaly",
+          "restartovali"
+        ]
+      }
+    },
+    {
+      "verb": "aktualizuj",
+      "infinitive": "aktualizovat",
+      "forms": {
+        "present": [
+          "aktualizuji",
+          "aktualizuješ",
+          "aktualizuje",
+          "aktualizujeme",
+          "aktualizujete",
+          "aktualizují"
+        ],
+        "future": [
+          "aktualizuji",
+          "aktualizuješ",
+          "aktualizuje",
+          "aktualizujeme",
+          "aktualizujete",
+          "aktualizují"
+        ],
+        "past": [
+          "aktualizoval",
+          "aktualizovala",
+          "aktualizovalo",
+          "aktualizovali",
+          "aktualizovaly",
+          "aktualizovali"
+        ]
+      }
+    },
+    {
+      "verb": "sleduj",
+      "infinitive": "sledovat",
+      "forms": {
+        "present": [
+          "sleduji",
+          "sleduješ",
+          "sleduje",
+          "sledujeme",
+          "sledujete",
+          "sledují"
+        ],
+        "future": [
+          "sleduji",
+          "sleduješ",
+          "sleduje",
+          "sledujeme",
+          "sledujete",
+          "sledují"
+        ],
+        "past": [
+          "sledoval",
+          "sledovala",
+          "sledovalo",
+          "sledovali",
+          "sledovaly",
+          "sledovali"
+        ]
+      }
+    },
+    {
+      "verb": "zaznamenej",
+      "infinitive": "zaznamenat",
+      "forms": {
+        "present": [
+          "zaznamenávám",
+          "zaznamenáváš",
+          "zaznamenává",
+          "zaznamenáváme",
+          "zaznamenáváte",
+          "zaznamenávají"
+        ],
+        "future": [
+          "zaznamenám",
+          "zaznamenáš",
+          "zaznamená",
+          "zaznamenáme",
+          "zaznamenáte",
+          "zaznamená"
+        ],
+        "past": [
+          "zaznamenal",
+          "zaznamenala",
+          "zaznamenalo",
+          "zaznamenali",
+          "zaznamenaly",
+          "zaznamenali"
+        ]
+      }
+    },
+    {
+      "verb": "přehraj",
+      "infinitive": "přehrát",
+      "forms": {
+        "present": [
+          "přehrávám",
+          "přehráváš",
+          "přehrává",
+          "přehráváme",
+          "přehráváte",
+          "přehrávají"
+        ],
+        "future": [
+          "přehraju",
+          "přehraješ",
+          "přehraje",
+          "přehrajeme",
+          "přehrajete",
+          "přehrají"
+        ],
+        "past": [
+          "přehrál",
+          "přehrála",
+          "přehrálo",
+          "přehráli",
+          "přehrály",
+          "přehráli"
+        ]
+      }
+    },
+    {
+      "verb": "zazpívej",
+      "infinitive": "zazpívat",
+      "forms": {
+        "present": [
+          "zazpívám",
+          "zazpíváš",
+          "zazpívá",
+          "zazpíváme",
+          "zazpíváte",
+          "zazpívají"
+        ],
+        "future": [
+          "zazpívám",
+          "zazpíváš",
+          "zazpívá",
+          "zazpíváme",
+          "zazpíváte",
+          "zazpívají"
+        ],
+        "past": [
+          "zazpíval",
+          "zazpívala",
+          "zazpívalo",
+          "zazpívali",
+          "zazpívaly",
+          "zazpívali"
+        ]
+      }
+    },
+    {
+      "verb": "zatanči",
+      "infinitive": "zatančit",
+      "forms": {
+        "present": ["tančím", "tančíš", "tančí", "tančíme", "tančíte", "tančí"],
+        "future": [
+          "zatančím",
+          "zatančíš",
+          "zatančí",
+          "zatančíme",
+          "zatančíte",
+          "zatančí"
+        ],
+        "past": [
+          "zatančil",
+          "zatančila",
+          "zatančilo",
+          "zatančili",
+          "zatančily",
+          "zatančili"
+        ]
+      }
+    },
+    {
+      "verb": "zaměstnej",
+      "infinitive": "zaměstnat",
+      "forms": {
+        "present": [
+          "zaměstnávám",
+          "zaměstnáváš",
+          "zaměstnává",
+          "zaměstnáváme",
+          "zaměstnáváte",
+          "zaměstnávají"
+        ],
+        "future": [
+          "zaměstnám",
+          "zaměstnáš",
+          "zaměstná",
+          "zaměstnáme",
+          "zaměstnáte",
+          "zaměstnají"
+        ],
+        "past": [
+          "zaměstnal",
+          "zaměstnala",
+          "zaměstnalo",
+          "zaměstnali",
+          "zaměstnaly",
+          "zaměstnali"
+        ]
+      }
+    },
+    {
+      "verb": "uč",
+      "infinitive": "učit",
+      "forms": {
+        "present": ["učím", "učíš", "učí", "učíme", "učíte", "učí"],
+        "future": ["naučím", "naučíš", "naučí", "naučíme", "naučíte", "naučí"],
+        "past": ["učil", "učila", "učilo", "učili", "učily", "učili"]
+      }
+    },
+    {
+      "verb": "Studuj",
+      "infinitive": "studovat",
+      "forms": {
+        "present": [
+          "studuji",
+          "studuješ",
+          "studuje",
+          "studujeme",
+          "studujete",
+          "studují"
+        ],
+        "future": [
+          "budu studovat",
+          "budeš studovat",
+          "bude studovat",
+          "budeme studovat",
+          "budete studovat",
+          "budou studovat"
+        ],
+        "past": [
+          "studoval",
+          "studovala",
+          "studovalo",
+          "studovali",
+          "studovaly",
+          "studovali"
+        ]
+      }
+    },
+    {
+      "verb": "trénuj",
+      "infinitive": "trénovat",
+      "forms": {
+        "present": [
+          "trénuji",
+          "trénuješ",
+          "trénuje",
+          "trénujeme",
+          "trénujete",
+          "trénují"
+        ],
+        "future": [
+          "budu trénovat",
+          "budeš trénovat",
+          "bude trénovat",
+          "budeme trénovat",
+          "budete trénovat",
+          "budou trénovat"
+        ],
+        "past": [
+          "trénoval",
+          "trénovala",
+          "trénovalo",
+          "trénovali",
+          "trénovaly",
+          "trénovali"
+        ]
+      }
+    },
+    {
+      "verb": "zorganizuj",
+      "infinitive": "zorganizovat",
+      "forms": {
+        "present": [
+          "zorganizovávám",
+          "zorganizováváš",
+          "zorganizovává",
+          "zorganizováváme",
+          "zorganizováváte",
+          "zorganizovávají"
+        ],
+        "future": [
+          "zorganizuji",
+          "zorganizuješ",
+          "zorganizuje",
+          "zorganizujeme",
+          "zorganizujete",
+          "zorganizují"
+        ],
+        "past": [
+          "zorganizoval",
+          "zorganizovala",
+          "zorganizovalo",
+          "zorganizovali",
+          "zorganizovaly",
+          "zorganizovali"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.col1-of-3 {
+  flex-basis: calc(70%/3);
+}
+
+.col1-of-4 {
+  flex-basis: calc(90%/4);
+}
+
+.flexContainer {
+  margin: 30px 0;
+}
+
+.flexContainer>div {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gridItem a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .flexContainer > div:not(.food) {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+}

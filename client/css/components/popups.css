@@ -1,0 +1,206 @@
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popupContent {
+  /* overflow-x: hidden; */
+  /* max-width: 100%; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-bac-secondary);
+  border-radius: var(--radius);
+  padding: 20px;
+  animation: popupAnimation 0.5s forwards cubic-bezier(0.5, 0.1, 0.25, 1);
+}
+
+.popupContent>div {
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 1s 0.25s forwards;
+}
+
+.closeBtn {
+  color: var(--color-primary);
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: var(--color-secondary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+.popupActivity .popupContent {
+  overflow-y: scroll;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popupActivity .popupContent>div {
+  margin: 20px;
+}
+
+
+.popupActivity .activityVideo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.popupActivity .activityVideo video {
+  min-width: 300px;
+  min-height: 200px;
+}
+
+
+
+
+.settingsBtn {
+  position: fixed;
+  right: 25px;
+  top: 25px;
+}
+
+.settingsBtn i {
+  font-size: 20px;
+}
+
+.popupSettings .popupContent {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.popupSettings .settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popupSettings .settings>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.popupSettings .settings>div i {
+  font-size: 20px;
+  width: 20px;
+}
+
+.popupSettings .settings>div>div:first-child {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.popupSettings .popupContent>div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.popupOption .popupContent {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.popupOption .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+
+
+.popupInput .popupContent {
+  overflow-y: scroll;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.popupInput .popupContent>div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popupInput .popupContent>div>div {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupInput .popupContent>div i {
+  font-size: 40px;
+}
+
+
+
+
+
+.popupGrid .popupContent {
+  overflow-y: scroll;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.popupGrid .gridItem img {
+  /* width: 250px; */
+  min-width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .popupActivity .activityVideo {
+    display: flex;
+    flex-direction: column;
+  }
+}

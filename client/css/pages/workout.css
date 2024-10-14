@@ -1,0 +1,124 @@
+.days {
+  min-width: 50%;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px;
+  background-color: var(--color-bac-secondary);
+}
+
+.day {
+  display: flex;
+  border-bottom: 1px solid var(--color-bac-tertiary);
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.day>div:first-child {
+  min-width: 110px;
+}
+
+.day>div {
+  display: flex;
+  min-height: 25px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.plannerTags {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  /* overflow: hidden; */
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.plannerTags > div {
+  min-width: 80px;
+  height: 20px;
+  background-color: var(--color-primary) !important;
+  color: var(--color-bac-primary);
+  display: flex;
+}
+
+.clock {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clockAnalog {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--color-secondary);
+  border-radius: 50%;
+  position: relative;
+  background: var(--color-bac-secondary);
+  margin-bottom: 20px;
+}
+
+.AHand {
+  width: 50%;
+  height: 6px;
+  background: var(--color-primary);
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.4, 2.3, 0.3, 1);
+}
+
+.AHour {
+  height: 6px;
+  background: var(--color-primary);
+}
+
+.AMinute {
+  height: 4px;
+  background: var(--color-primary);
+}
+
+.ASecond {
+  height: 2px;
+  background: var(--color-secondary);
+}
+
+.ACenter {
+  width: 14px;
+  height: 14px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clockDigital {
+  height: 100px;
+  min-width: 275px;
+  border-radius: var(--radius);
+  background-color: var(--color-bac-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 1000px) {
+  .days {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

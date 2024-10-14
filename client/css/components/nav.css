@@ -1,0 +1,130 @@
+/* sideNav */
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 20%;
+  background-color: var(--color-bac-secondary);
+  padding: 30px 30px;
+  z-index: 5;
+  transition: transform 0.3s ease;
+}
+
+.sideNav>div {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.sideNav>div:first-child {
+  flex-direction: column;
+}
+
+.hamburger {
+  display: none;
+}
+
+.sideNav nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.sideNav nav a {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.sideNav i {
+  font-size: 20px;
+}
+
+.sideNav nav a i {
+  width: 20px;
+}
+
+.sideNav img {
+  display: none;
+}
+
+/* bottomNav */
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  background-color: var(--color-bac-secondary);
+  z-index: 5;
+}
+
+.bottomNav nav {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomNav nav a {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.bottomNav nav i {
+  font-size: 25px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .sideNav {
+    position: fixed;
+    width: 10%;
+  }
+
+  .sideNav>div {
+    flex-direction: column;
+  }
+
+  .navLogoImg,
+  .hamburger {
+    display: block;
+  }
+
+  .navLogoText,
+  span.sideNavText {
+    display: none;
+  }
+
+  .sideNav.open {
+    width: 43%;
+    animation: slideInFromLeft 0.5s 0s ease;
+  }
+
+  .sideNav.open span.sideNavText {
+    display: block;
+  }
+
+  .sideNav.closed {
+    width: 10%;
+    animation: slideOutToLeft 0.5s 0s ease;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sideNav {
+    display: none;
+  }
+
+  .bottomNav {
+    display: flex;
+  }
+
+  
+}

@@ -1,0 +1,54 @@
+{
+  "pronouns": {
+    "questions": [
+      "kdo",
+      "co",
+      "kde",
+      "kdy",
+      "proč",
+      "jak",
+      "kolik",
+      "který",
+      "která",
+      "které",
+      "kterou"
+    ],
+    "personal": [
+      "já",
+      "ty",
+      "on",
+      "ona",
+      "ono",
+      "my",
+      "vy",
+      "oni",
+      "ony"
+    ],
+    "demonstrative": [
+      "ten",
+      "ta",
+      "to",
+      "ti",
+      "ty",
+      "tento",
+      "tato",
+      "toto",
+      "tito",
+      "tyto",
+      "tamten",
+      "tamta",
+      "tamto",
+      "tamti",
+      "tamty",
+      "onen",
+      "ona",
+      "ono",
+      "oni",
+      "ony",
+      "tohle",
+      "tohleto",
+      "tamhleto"
+    ]
+  }
+}
+

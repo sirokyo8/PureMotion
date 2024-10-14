@@ -1,0 +1,76 @@
+{
+  "responses": {
+    "greetings": [
+      "Ahoj!",
+      "Dobrý den!",
+      "Zdravím!",
+      "Nazdar!"
+    ],
+    "farewell": [
+      "Sbohem!",
+      "Na shledanou!",
+      "Měj se hezky!",
+      "Zdar brachu!"
+    ],
+    "thanks": [
+      "Děkuji!",
+      "Díky moc!",
+      "Velmi si toho vážím!",
+      "Ocením to!"
+    ],
+    "apologies": [
+      "Omlouvám se.",
+      "Promiňte, že to říkám.",
+      "Je mi líto.",
+      "Můj omyl."
+    ],
+    "confirmations": [
+      "Ano, určitě.",
+      "Bezpochyby!",
+      "Jistě!",
+      "Rozumím."
+    ],
+    "negations": [
+      "Ne, to není pravda.",
+      "Odmítám.",
+      "Nemohu souhlasit.",
+      "Na to nejsem schopen odpovědět."
+    ],
+    "questions": [
+      "Ano, to je zajímavá otázka.",
+      "Bohužel nemohu odpovědět na tuto otázku.",
+      "Promiň, nejsem si jistý odpovědí.",
+      "Nevím, co na to říct."
+    ],
+    "commands": [
+      "Rozumím, provedu to.",
+      "Dobře, hned to udělám.",
+      "Na to jsem připraven."
+    ],
+    "assertions": [
+      "Mám pocit, že to je správně.",
+      "Je to tak, jak říkáte.",
+      "S tím souhlasím.",
+      "Myslím, že máte pravdu.",
+      "Domnívám se, že máte pravdu.",
+      "Ověřil jsem to a zdá se, že máte pravdu.",
+      "Nemohu s vámi nesouhlasit.",
+      "To zní logicky."
+    ],
+    "warnings": [
+      "Varuji vás, že to může být nebezpečné.",
+      "Dbejte na opatrnost.",
+      "Mějte na paměti, že to může mít následky.",
+      "Pozor na to, co děláte."
+    ],
+    "encouragements": [
+      "Držím ti palce!",
+      "Věřím v tebe!",
+      "Nemůžeš to udělat špatně!",
+      "Jsi úžasný!"
+    ],
+    "dont_understand": [
+      "Nerozumim ti! Nauč se mluvit a zkus to znovu."
+    ]
+  }
+}

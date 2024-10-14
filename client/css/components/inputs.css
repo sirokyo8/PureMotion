@@ -1,0 +1,30 @@
+.colorPalette {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 60px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  border-radius: var(--radius-secondary);
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+}
+
+.colorPalette::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: var(--radius-secondary);
+}
+
+.colorPalette::-webkit-color-swatch {
+  border: 8px solid var(--color-primary);
+  border-radius: var(--radius-secondary); 
+  padding: 5px;
+}
+
+.colorPalette::-moz-color-swatch {
+  border: 8px solid var(--color-secondary);
+  border-radius: var(--radius-secondary);
+  padding: 5px;
+}

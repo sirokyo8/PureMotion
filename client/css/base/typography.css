@@ -1,0 +1,55 @@
+
+.font1 {
+  font-size: 80px;
+}
+
+.font2 {
+  font-size: 30px;
+}
+
+.font3 {
+  font-size: 25px;
+}
+
+.font4 {
+  font-size: 20px;
+}
+
+.font5 {
+  font-size: 15px;
+}
+
+.font6 {
+  font-size: 12.5px;
+}
+
+.mid {
+  font-weight: var(--font-mid);
+}
+
+.semiBold {
+  font-weight: var(--font-semi-bold);
+}
+
+.bold {
+  font-weight: var(--font-bold);
+}
+
+.dashboardHeader {
+  margin: 10px 0;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.desc {
+  font-size: 13px;
+  opacity: 50%;
+  margin: 0 0 10px 0;
+}
+
+.copy {
+  font-size: 10px;
+  opacity: 50%;
+}

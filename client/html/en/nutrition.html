@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find healthy and balanced recipes for your dietary needs on our nutrition website.">
+  <meta name="author" content="PureMotion Team">
+  <meta name="keywords" content="nutrition, healthy recipes, balanced diet, cooking, food">
+  <title>PureMotion</title>
+  <script src="https://kit.fontawesome.com/0906644102.js" crossorigin="anonymous"></script>
+  <link rel="alternate" hreflang="cs" href="../cs/">
+  <link rel="shortcut icon" href="../../assets/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../../css/main.css">
+</head>
+
+<body>
+  <main>
+    <div class="assistant">
+      <div class="assistantContent">
+        <div class="assistantSphere">
+          <div></div>
+        </div>
+        <div>
+          <span class="font5 semiBold" id="assistantInteraction"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="splashScreen splashScreenV2">
+    </div>
+    <div class="sideNav">
+      <div>
+        <button class="hamburger" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
+        <a href="index.html" class="font3 semiBold navLogoText">PURE<span class="orange">MOTION</span></a>
+        <nav>
+          <a href="workout.html" class="font4 semiBold"><i class="fa-solid fa-dumbbell"></i><span
+              class="sideNavText">Workout</span></a>
+          <a href="nutrition.html" class="font4 semiBold"><i class="fa-solid fa-utensils"></i><span
+              class="sideNavText">Nutrition</span></a>
+          <a href="aboutUs.html" class="font4 semiBold"><i class="fa-solid fa-people-group"></i><span
+              class="sideNavText">About Us</span></a>
+          <a href="https://www.paypal.com/donate/?hosted_button_id=WMZKWFUNC8FQ8" target="_blank"
+            class="font4 semiBold"><i class="fa-solid fa-dollar-sign"></i><span class="sideNavText">Give us
+              money</span></a>
+        </nav>
+      </div>
+      <div>
+        <div class="assistantBegin"></div>
+      </div>
+    </div>
+    <div class="bottomNav">
+			<nav>
+				<a href="workout.html" class="font4 semiBold"><i class="fa-solid fa-dumbbell"></i></a>
+				<a href="nutrition.html" class="font4 semiBold"><i class="fa-solid fa-utensils"></i></a>
+				<div>
+					<div class="assistantBegin"></div>
+				</div>
+				<a href="aboutUs.html" class="font4 semiBold"><i class="fa-solid fa-people-group"></i></a>
+				<a href="https://www.paypal.com/donate/?hosted_button_id=WMZKWFUNC8FQ8" target="_blank"
+					class="font4 semiBold"><i class="fa-solid fa-dollar-sign"></i></a>
+			</nav>
+    </div>
+    <div class="dashboard">
+      <h1 class="dashboardHeader font2 textCenter">Nutrition</h1>
+      <p class="desc textCenter">Optimize your nutrition for better results. Track your meals, calculate your intake,
+        and stay on top of your
+        dietary goals.</p>
+      <button class="openPopupBtn settingsBtn" data-popup="popup1">
+        <i class="fa-solid fa-gear"></i>
+      </button>
+      <div class="categories">
+        <div class="category col1-of-4">
+          <button class="openPopupBtn" data-popup="popup2">
+            <img src="../../assets/food/breakfast.webp" alt="Breakfast">
+            <span class="font4 bold">Breakfast</span>
+          </button>
+        </div>
+        <div class="category col1-of-4">
+          <button class="openPopupBtn" data-popup="popup3">
+            <img src="../../assets/food/lunch.webp" alt="Lunch">
+            <span class="font4 bold">Lunch</span>
+          </button>
+        </div>
+        <div class="category col1-of-4">
+          <button class="openPopupBtn" data-popup="popup4">
+            <img src="../../assets/food/dinner.webp" alt="Dinner">
+            <span class="font4 bold">Dinner</span>
+          </button>
+        </div>
+        <div class="category col1-of-4">
+          <button class="openPopupBtn" data-popup="popup5">
+            <img src="../../assets/food/snacks.webp" alt="Snack">
+            <span class="font4 bold">Snacks</span>
+          </button>
+        </div>
+      </div>
+      <div class="flexContainer">
+        <div>
+          <div>
+            <div class="nutritionChartContainer">
+              <div class="nutritionChart" id="chart">
+                <button class="addBtn openPopupBtn" data-popup="popup6">+</button>
+              </div>
+              <div class="nutritionChartInfo">
+                <div class="proteins font4 semiBold" id="proteins">Proteins <span class="orange" id="proteinsInner">0g</span></div>
+                <div class="fats font4 semiBold" id="fats">Fats <span class="orange" id="fatsInner">0g</span></div>
+                <div class="carbs font4 semiBold" id="carbs">Carbs <span class="orange" id="carbsInner">0g</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="bmiCalc">
+            <div class="bmiChartContainer">
+              <div class="bmiChart">
+                <div class="bmiChartData">
+                  <p class="font4 semiBold">BMI</p>
+                  <span class="orange" id="bmi">22</span>
+                </div>
+                <div class="bmiChartInd"></div>
+              </div>
+            </div>
+            <button class="btn font5 semiBold openPopupBtn" data-popup="popup7">Calculate BMI</button>
+          </div>
+        </div>
+        <div class="food">
+          <h1 class="dashboardHeader font2">Featured <span class="orange">Food</span></h1>
+          <img id="slideshow" src="../../assets/slideshow/food.webp" alt="picture1">
+        </div>
+      </div>
+
+
+
+
+      <!-- popups -->
+
+      <!-- settings -->
+      <div id="popup1" class="popup popupSettings">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <div>
+            <h2 class="font3 bold">Settings</h2>
+          </div>
+          <div class="settings">
+            <div>
+              <div>
+                <i class="fa-solid fa-moon"></i>
+                <p class="font4 semiBold">Dark <span class="orange">theme</span></p>
+              </div>
+              <div class="switch">
+                <input type="checkbox" id="toggleSwitch" class="theme_switch" checked>
+                <label for="toggleSwitch"></label>
+              </div>
+            </div>
+            <div>
+              <div>
+                <i class="fa-solid fa-palette"></i>
+                <p class="font4 semiBold">Color <span class="orange">palette</span></p>
+              </div>
+              <div>
+                <div>
+                  <input type="color" id="colorInput" class="colorPalette" value="#ed563b">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <i class="fa-solid fa-comment"></i>
+                <p class="font4 semiBold">Language</p>
+              </div>
+              <div>
+                <a onclick="cs()" class="simpleBtn">
+                  <span> <object type="image/svg+xml" data="../../assets/svg/cz.svg" width="20"
+                      height="20"></object></span>
+                  <span class="font5 semiBold">CS</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="btn font5 semiBold saveButton">Save</button>
+            <button class="resetBtn">Reset to default</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- activity popups -->
+      <div id="popup2" class="popup popupGrid">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <div class="popupActivityDesc">
+            <h2 class="font3 bold">Healthy breakfast <span class="orange">ideas</span></h2>
+          </div>
+          <div class="gridItems">
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/crispy-greek-potato-bake-recipe/" target="_blank">
+                <img src="../../assets/food/breakfasts/CrispyGreekPotato.webp" alt="Greek Lemon Potato Bake">
+                <h3 class="font5 semiBold">Greek Lemon Potato Bake</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/baked-french-toast-casserole/" target="_blank">
+                <img src="../../assets/food/breakfasts/BerriesFrenchToast.webp" alt="Toast Casserole">
+                <h3 class="font5 semiBold">Toast Casserole</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/healthy-pumpkin-pancakes/" target="_blank">
+                <img src="../../assets/food/breakfasts/PumpkinPancakes.webp" alt="Pumpkin Pancakes">
+                <h3 class="font5 semiBold">Pumpkin Pancakes</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/strawberry-cheesecake-overnight-oats/" target="_blank">
+                <img src="../../assets/food/breakfasts/StrawberryCheesecakeoats.webp" alt="Strawberry Cheesecake">
+                <h3 class="font5 semiBold">Strawberry Cheesecake</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/protein-overnight-oats-recipe/" target="_blank">
+                <img src="../../assets/food/breakfasts/ProteinOats.webp" alt="Protein Oats">
+                <h3 class="font5 semiBold">Protein Oats</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/garden-veggie-frittata/" target="_blank">
+                <img src="../../assets/food/breakfasts/GardenVeggieFritatta.webp" alt="Healthy Garden Veggie Frittata">
+                <h3 class="font5 semiBold">Vegie Garden Frittata</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup3" class="popup popupGrid">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <div class="popupActivityDesc">
+            <h2 class="font3 bold">Healthy lunch <span class="orange">ideas</span></h2>
+          </div>
+          <div class="gridItems">
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/balsamic-chicken-breast/" target="_blank">
+                <img src="../../assets/food/lunch/BalsamicChickenBreast.webp" alt="Balsamic Chicken Breast">
+                <h3 class="font5 semiBold">Balsamic Chicken Breast</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/oven-roasted-chicken-breast/" target="_blank">
+                <img src="../../assets/food/lunch/RoastedChickenBreast.webp" alt="Roasted Chicken Breast">
+                <h3 class="font5 semiBold">Roasted Chicken Breast</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/blackened-shrimp/" target="_blank">
+                <img src="../../assets/food/lunch/BlackenedShrimp.webp" alt="Blackened Shrimp">
+                <h3 class="font5 semiBold">Blackened Shrimp</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/chicken-pomodoro/" target="_blank">
+                <img src="../../assets/food/lunch/ChickenPomodoro.webp" alt="Chicken Pomodoro">
+                <h3 class="font5 semiBold">Chicken Pomodoro</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/pesto-bruschetta-chicken/" target="_blank">
+                <img src="../../assets/food/lunch/PestoBruschettaChicken.webp" alt="Pesto Bruschetta Chicken">
+                <h3 class="font5 semiBold">Pesto Bruschetta Chicken</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/grilled-chicken-cobb-salad/" target="_blank">
+                <img src="../../assets/food/lunch/ChickenCobbSalad.webp" alt="Chicken Cobb Salad">
+                <h3 class="font5 semiBold">Chicken Cobb Salad</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup4" class="popup popupGrid">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <div class="popupActivityDesc">
+            <h2 class="font3 bold">Healthy dinner <span class="orange">ideas</span></h2>
+          </div>
+          <div class="gridItems">
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/creamy-cucumber-salad/" target="_blank">
+                <img src="../../assets/food/dinners/CreamyCucumberSalad.webp" alt="Creamy Cucumber Salad">
+                <h3 class="font5 semiBold">Creamy Cucumber Salad</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/spinach-apple-pecan-salad/" target="_blank">
+                <img src="../../assets/food/dinners/SpinachApplePecanSalad.webp" alt="Spinach Apple Pecan Salad">
+                <h3 class="font5 semiBold">Spinach Apple Pecan Salad</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/ahi-tuna-nicoise-salad-recipe/" target="_blank">
+                <img src="../../assets/food/dinners/AhiTunaNicoiseSalad.webp" alt="Ahi Tuna Nicoise Salad">
+                <h3 class="font5 semiBold">Ahi Tuna Nicoise Salad</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/citrus-shrimp-salad/" target="_blank">
+                <img src="../../assets/food/dinners/CitrusCajunShrimpSalad.webp" alt="Citrus Cajun Shrimp Salad">
+                <h3 class="font5 semiBold">Citrus Cajun Shrimp Salad</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/beef-stroganoff-soup/" target="_blank">
+                <img src="../../assets/food/dinners/BeefStroganoffSoup.webp" alt="Beef Stroganoff Soup">
+                <h3 class="font5 semiBold">Beef Stroganoff Soup</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/easy-chicken-chili/" target="_blank">
+                <img src="../../assets/food/dinners/ChickenChili.webp" alt="Chicken Chili">
+                <h3 class="font5 semiBold">Chicken Chili</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup5" class="popup popupGrid">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <div class="popupActivityDesc">
+            <h2 class="font3 bold">Healthy snack <span class="orange">ideas</span></h2>
+          </div>
+          <div class="gridItems">
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/mocha-protein-shake/" target="_blank">
+                <img src="../../assets/food/snacks/MochaShake.webp" alt="Mocha Protein Shake">
+                <h3 class="font5 semiBold">Mocha Protein Shake</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/banana-ice-cream-recipe/" target="_blank">
+                <img src="../../assets/food/snacks/BananaIceCream.webp" alt="Banana Ice Cream">
+                <h3 class="font5 semiBold">Banana Ice Cream</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/strawberries-and-cream-smoothie/" target="_blank">
+                <img src="../../assets/food/snacks/StrawberrySmoothie.webp" alt="Strawberry and Cream Smoothie">
+                <h3 class="font5 semiBold">Strawberry and Cream Smoothie</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/blueberry-scones/" target="_blank">
+                <img src="../../assets/food/snacks/BlueberryScones.webp" alt="Blueberry Scones">
+                <h3 class="font5 semiBold">Blueberry Scones</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/baked-egg-nests/" target="_blank">
+                <img src="../../assets/food/snacks/ZoodleEggNests.webp" alt="Zoodle Egg Nests">
+                <h3 class="font5 semiBold">Zoodle Egg Nests</h3>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="https://healthyfitnessmeals.com/pumpkin-chia-pudding/" target="_blank">
+                <img src="../../assets/food/snacks/PumpkinPieChiaPudding.webp" alt="Pumpkin Pie Chia Pudding">
+                <h3 class="font5 semiBold">Pumpkin Pie Chia Pudding</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- input popoups -->
+      <div id="popup6" class="popup popupInput">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <h2 class="font3 bold">Add your <span class="orange">nutrien intake</span></h2>
+          <div>
+            <div>
+              <i class="fa-solid fa-egg"></i>
+              <input type="number" placeholder="Add proteins (g)" id="proteinInput" name="proteinInput" min="0"
+                required>
+            </div>
+            <div>
+              <i class="fa-solid fa-bottle-droplet"></i>
+              <input type="number" placeholder="Add fats (g)" id="fatInput" name="fatInput" min="0" required>
+            </div>
+            <div>
+              <i class="fa-solid fa-plate-wheat"></i>
+              <input type="number" placeholder="Add carbs (g)" id="carbsInput" name="carbsInput" min="0" required>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn font5 semiBold" id="nutritionSubmit">Add data</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="popup7" class="popup popupInput">
+        <div class="popupContent">
+          <span class="closeBtn">&times;</span>
+          <h2 class="font3 bold">Find out <span class="orange">your BMI</span></h2>
+          <div>
+            <div>
+              <i class="fa-solid fa-weight-scale"></i>
+              <input type="number" placeholder="Your weight in kg" id="weightInput" name="weightInput" min="0" required>
+            </div>
+            <div>
+              <i class="fa-solid fa-up-down"></i>
+              <input type="number" placeholder="Your height in cm" id="heightInput" name="heightInput" min="0"
+                step="0.01" required>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn font5 semiBold" id="bmiSubmit">Calculate BMI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="../../js/animations.js"></script>
+  <script src="../../js/db.js"></script>
+  <script src="../../js/assistant.js"></script>
+  <script src="../../js/nutrition.js"></script>
+  <script src="../../js/index.js"></script>
+</body>
+
+</html>

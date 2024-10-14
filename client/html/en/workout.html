@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Get exercise tips, workout plans, and inspiration to enhance your fitness regimen on our workout website.">
+	<meta name="author" content="PureMotion Team">
+	<meta name="keywords" content="workout, exercise, fitness tips, training plans, motivation">
+	<title>PureMotion</title>
+	<script src="https://kit.fontawesome.com/0906644102.js" crossorigin="anonymous"></script>
+	<link rel="alternate" hreflang="cs" href="../cs/">
+	<link rel="shortcut icon" href="../../assets/logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../../css/main.css">
+</head>
+
+<body>
+	<main>
+		<div class="assistant">
+			<div class="assistantContent">
+				<div class="assistantSphere">
+					<div></div>
+				</div>
+				<div>
+					<span class="font5 semiBold" id="assistantInteraction"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="splashScreen splashScreenV2">
+		</div>
+		<div class="sideNav">
+			<div>
+				<button class="hamburger" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
+				<a href="index.html" class="font3 semiBold navLogoText">PURE<span class="orange">MOTION</span></a>
+				<nav>
+					<a href="workout.html" class="font4 semiBold"><i class="fa-solid fa-dumbbell"></i><span
+							class="sideNavText">Workout</span></a>
+					<a href="nutrition.html" class="font4 semiBold"><i class="fa-solid fa-utensils"></i><span
+							class="sideNavText">Nutrition</span></a>
+					<a href="aboutUs.html" class="font4 semiBold"><i class="fa-solid fa-people-group"></i><span
+							class="sideNavText">About Us</span></a>
+					<a href="https://www.paypal.com/donate/?hosted_button_id=WMZKWFUNC8FQ8" target="_blank"
+						class="font4 semiBold"><i class="fa-solid fa-dollar-sign"></i><span class="sideNavText">Give us
+							money</span></a>
+				</nav>
+			</div>
+			<div>
+				<div class="assistantBegin"></div>
+			</div>
+		</div>
+		<div class="bottomNav">
+			<nav>
+				<a href="workout.html" class="font4 semiBold"><i class="fa-solid fa-dumbbell"></i></a>
+				<a href="nutrition.html" class="font4 semiBold"><i class="fa-solid fa-utensils"></i></a>
+				<div>
+					<div class="assistantBegin"></div>
+				</div>
+				<a href="aboutUs.html" class="font4 semiBold"><i class="fa-solid fa-people-group"></i></a>
+				<a href="https://www.paypal.com/donate/?hosted_button_id=WMZKWFUNC8FQ8" target="_blank"
+					class="font4 semiBold"><i class="fa-solid fa-dollar-sign"></i></a>
+			</nav>
+		</div>
+		<div class="dashboard">
+			<h1 class="font2 textCenter dashboardHeader">Workout <span class="orange">categories</span></h1>
+			<button class="openPopupBtn settingsBtn" data-popup="popup1">
+				<i class="fa-solid fa-gear"></i>
+			</button>
+			<div class="categories">
+				<div class="category col1-of-3">
+					<button class="openPopupBtn" data-popup="popup2">
+						<img src="../../assets/workout/chest.webp" alt="Chest">
+						<span class="font4 bold">Chest Workouts</span>
+					</button>
+				</div>
+				<div class="category col1-of-3">
+					<button class="openPopupBtn" data-popup="popup3">
+						<img src="../../assets/workout/back.webp" alt="Back">
+						<span class="font4 bold">Back Workouts</span>
+					</button>
+				</div>
+				<div class="category col1-of-3">
+					<button class="openPopupBtn" data-popup="popup4">
+						<img src="../../assets/workout/bicep.webp" alt="Bicep">
+						<span class="font4 bold">Bicep Workouts</span>
+					</button>
+				</div>
+				<div class="category col1-of-3">
+					<button class="openPopupBtn" data-popup="popup5">
+						<img src="../../assets/workout/tricep.webp" alt="Tricep">
+						<span class="font4 bold">Tricep Workouts</span>
+					</button>
+				</div>
+				<div class="category col1-of-3">
+					<button class="openPopupBtn" data-popup="popup6">
+						<img src="../../assets/workout/shoulder.webp" alt="Shoulder">
+						<span class="font4 bold">Shoulder Workouts</span>
+					</button>
+				</div>
+				<div class="category col1-of-3">
+					<button class="openPopupBtn" data-popup="popup7">
+						<img src="../../assets/workout/leg.webp" alt="Leg">
+						<span class="font4 bold">Leg Workouts</span>
+					</button>
+				</div>
+			</div>
+			<div class="flexContainer">
+				<h1 class="dashboardHeader font2">Workout <span class="orange">Planner</span></h1>
+				<p class="desc">Plan your workouts for the week and stay on track with your fitness goals.</p>
+				<div>
+					<div class="days">
+						<div class="day" data-day="Monday">
+							<div>
+								<p>Monday</p>
+							</div>
+							<div class="plannerTags"></div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+						<div class="day" data-day="Tuesday">
+							<div>
+								<p>Tuesday</p>
+							</div>
+							<div class="plannerTags"></div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+						<div class="day" data-day="Wednesday">
+							<div>
+								<p>Wednesday</p>
+							</div>
+							<div class="plannerTags">
+							</div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+						<div class="day" data-day="Thursday">
+							<div>
+								<p>Thursday</p>
+							</div>
+							<div class="plannerTags"></div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+						<div class="day" data-day="Friday">
+							<div>
+								<p>Friday</p>
+							</div>
+							<div class="plannerTags"></div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+						<div class="day" data-day="Saturday">
+							<div>
+								<p>Saturday</p>
+							</div>
+							<div class="plannerTags"></div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+						<div class="day" data-day="Sunday">
+							<div>
+								<p>Sunday</p>
+							</div>
+							<div class="plannerTags"></div>
+							<div>
+								<button class="addBtn openPopupBtn" data-popup="popup8">+</button>
+							</div>
+						</div>
+					</div>
+					<div class="clock">
+						<div class="clockAnalog">
+							<div class="AHand AHour" id="hour"></div>
+							<div class="AHand AMinute" id="minute"></div>
+							<div class="AHand ASecond" id="second"></div>
+							<div class="ACenter"></div>
+						</div>
+						<div class="clockDigital">
+							<p id="time" class="font3 semiBold">WE: 00 : 00 : 00</p>
+							<p id="date" class="font5 semiBold"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- popups -->
+		<!-- settings -->
+		<div id="popup1" class="popup popupSettings">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div>
+					<h2 class="font3 bold">Settings</h2>
+				</div>
+				<div class="settings">
+					<div>
+						<div>
+							<i class="fa-solid fa-moon"></i>
+							<p class="font4 semiBold">Dark <span class="orange">theme</span></p>
+						</div>
+						<div class="switch">
+							<input type="checkbox" id="toggleSwitch" class="theme_switch" checked>
+							<label for="toggleSwitch"></label>
+						</div>
+					</div>
+					<div>
+						<div>
+							<i class="fa-solid fa-palette"></i>
+							<p class="font4 semiBold">Color <span class="orange">palette</span></p>
+						</div>
+						<div>
+							<div>
+								<input type="color" id="colorInput" class="colorPalette" value="#ed563b">
+							</div>
+						</div>
+					</div>
+					<div>
+						<div>
+							<i class="fa-solid fa-comment"></i>
+							<p class="font4 semiBold">Language</p>
+						</div>
+						<div>
+							<a onclick="cs()" class="simpleBtn">
+								<span> <object type="image/svg+xml" data="../../assets/svg/cz.svg" width="20"
+										height="20"></object></span>
+								<span class="font5 semiBold">CS</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<button class="btn font5 semiBold saveButton">Save</button>
+					<button class="resetBtn">Reset to default</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- activity popups -->
+		<div id="popup2" class="popup popupActivity">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div class="activityVideo">
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/chest1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/chest2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="popupActivityDesc">
+					<h2 class="font3 bold">Chest <span class="orange">Workout</span></h2>
+					<p>A chest workout primarily targets the pectoral muscles, which are located in the front of the chest. It's
+						important to include a variety of exercises to work different parts of the chest.</p>
+					<ul>
+						<li>Bench Press</li>
+						<li>Push-Ups</li>
+						<li>Chest Flys</li>
+						<li>Cable Crossovers</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="popup3" class="popup popupActivity">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div class="activityVideo">
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/back1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/back2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="popupActivityDesc">
+					<h2 class="font3 bold">Back <span class="orange">Workout</span></h2>
+					<p>A back workout aims to strengthen the muscles of the back, including the latissimus dorsi, rhomboids, and
+						traps. Strong back muscles are essential for good posture and overall strength.</p>
+					<ul>
+						<li>Pull-Ups</li>
+						<li>Rows (Barbell, Dumbbell, Cable)</li>
+						<li>Deadlifts</li>
+						<li>Lat Pulldowns</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="popup4" class="popup popupActivity">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div class="activityVideo">
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/bicep1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/bicep2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="popupActivityDesc">
+					<h2 class="font3 bold">Bicep <span class="orange">Workout</span></h2>
+					<p>A bicep workout focuses on building and defining the bicep muscles, which are located on the front of the
+						upper arm. Strong biceps are essential for lifting and pulling movements.</p>
+					<ul>
+						<li>Bicep Curls (Barbell, Dumbbell, Cable)</li>
+						<li>Hammer Curls</li>
+						<li>Concentration Curls</li>
+						<li>Preacher Curls</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="popup5" class="popup popupActivity">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div class="activityVideo">
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/tricep1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/tricep2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="popupActivityDesc">
+					<h2 class="font3 bold">Tricep <span class="orange">Workout</span></h2>
+					<p>A tricep workout targets the tricep muscles, which are located on the back of the upper arm. Strong triceps
+						are important for pushing movements and overall arm strength.</p>
+					<ul>
+						<li>Tricep Dips</li>
+						<li>Tricep Extensions (Overhead, Rope)</li>
+						<li>Skull Crushers</li>
+						<li>Tricep Kickbacks</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="popup6" class="popup popupActivity">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div class="activityVideo">
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/shoulder1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/shoulder2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="popupActivityDesc">
+					<h2 class="font3 bold">Shoulder <span class="orange">Workout</span></h2>
+					<p>A shoulder workout focuses on strengthening the deltoid muscles, which are responsible for shoulder
+						movement. Strong shoulders are important for overall upper body strength and stability.</p>
+					<ul>
+						<li>Shoulder Press (Barbell, Dumbbell)</li>
+						<li>Lateral Raises</li>
+						<li>Front Raises</li>
+						<li>Upright Rows</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="popup7" class="popup popupActivity">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div class="activityVideo">
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/leg1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<video autoplay loop muted>
+						<source src="../../assets/workout/workoutVid/leg2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="popupActivityDesc">
+					<h2 class="font3 bold">Leg <span class="orange">Workout</span></h2>
+					<p>A leg workout targets the muscles of the lower body, including the quadriceps, hamstrings, glutes, and
+						calves. Strong legs are essential for stability, balance, and overall functional movement.</p>
+					<ul>
+						<li>Squats (Back Squats, Front Squats)</li>
+						<li>Lunges (Forward, Reverse, Walking)</li>
+						<li>Leg Press</li>
+						<li>Calf Raises</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- option popoup -->
+		<div id="popup8" class="popup popupOption">
+			<div class="popupContent">
+				<span class="closeBtn">&times;</span>
+				<div>
+					<h2 class="font3 bold">Choose tags</h2>
+				</div>
+				<div class="tags">
+					<button class="tag active">
+						<span>💪</span>
+						<span class="semiBold">Chest</span>
+					</button>
+					<button class="tag">
+						<span>💪</span>
+						<span class="semiBold">Back</span>
+					</button>
+					<button class="tag">
+						<span>💪</span>
+						<span class="semiBold">Bicep</span>
+					</button>
+					<button class="tag">
+						<span>💪</span>
+						<span class="semiBold">Tricep</span>
+					</button>
+					<button class="tag">
+						<span>💪</span>
+						<span class="semiBold">Shoulder</span>
+					</button>
+					<button class="tag">
+						<span>💪</span>
+						<span class="semiBold">Leg</span>
+					</button>
+				</div>
+				<div>
+					<button class="btn font5 semiBold savePlannerBtn">Save</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="../../js/animations.js"></script>
+	<script src="../../js/commands.js"></script>
+	<script src="../../js/assistant.js"></script>
+	<script src="../../js/db.js"></script>
+	<script src="../../js/workout.js"></script>
+	<script src="../../js/index.js"></script>
+</body>
+
+</html>
