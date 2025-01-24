@@ -16,16 +16,10 @@ To install and run the project locally, follow these steps:
     cd PureMotion
     ```
 
-3. Start the local server:
-    ```sh
-    python -m http.server 8000
-    ```
+3. Open `index.html` in your browser:
+    Navigate to `client/html/en/` and open `index.html` in your preferred web browser.
 
-4. Open in browser:
-    Open your browser and go to http://localhost:8000/client/html/en/
-
-## Usage
-Once the server is running, open your web browser and navigate to `http://localhost:8000/client/html/en/` to access the application. You can use the planner to organize your tasks and view the current time and date.
+(Or you can also run localhost)
 
 ## Collaboration
 This project was developed in collaboration with two classmates as a final project.
@@ -50,16 +44,10 @@ Pro instalaci a spuštění projektu lokálně postupujte podle těchto kroků:
     cd PureMotion
     ```
 
-3. Spusťte lokální server:
-    ```sh
-    python -m http.server 8000
-    ```
+3. Otevřete `index.html` na prohlížeči:
+    Přejděte do `client/html/en/` a otevřete `index.html` ve svém preferovaném webovém prohlížeči.
 
-4. Otevřete na prohlížeči:
-    Na prohlížeči otevřete http://localhost:8000/client/html/en/
-
-## Použití
-Jakmile server běží, otevřete svůj webový prohlížeč a přejděte na `http://localhost:8000/client/html/en/` pro přístup k aplikaci. Můžete použít plánovač k organizaci svých úkolů a zobrazení aktuálního času a data.
+(Nebo můžete také spustit localhost)
 
 ## Spolupráce
 Tento projekt byl vyvinut ve spolupráci se dvěma spolužáky jako finální projekt v 1. ročníku.
